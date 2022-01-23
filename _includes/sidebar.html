@@ -13,7 +13,7 @@
 
 <div class="sidebar-item sidebar-nav">
 	<ul class="nav">
-      <li class="nav-title">Pages</li>
+      <li class="nav-title">About</li>
 	  <li>
 	  	<a class="nav-item" href="/">Articles</a>
 	  </li>
@@ -29,24 +29,149 @@
 	      {% endif %}
 	    {% endif %}
 	  {% endfor %}
+	  <li>
+	  	<a class="nav-item" href="/category/#Diary">Diary</a>
+	  </li>
+	</ul>
+</div>
+
+
+<div class="sidebar-item sidebar-nav">
+  	<ul class="nav">
+			<li class="nav-title">DATA SCIENCE</li>
+				<li>
+					<a class="nav-item" href="/category/#Python">Python</a>
+				</li>
+				<li>
+					<a class="nav-item" href="/category/#R">R</a>
+				</li>
+				<li>
+					<a class="nav-item" href="/category/#SQL">SQL</a>
+				</li>
+				<li>
+					<a class="nav-item" href="/category/#Tensorflow">Tensorflow</a>
+				</li>
+				<li>
+					<a class="nav-item" href="/category/#Pytorch">Pytorch</a>
+				</li>
+				<li>
+					<a class="nav-item" href="/category/#Vision">Vision</a>
+				</li>
+				<li>
+					<a class="nav-item" href="/category/#Optimization">Optimization</a>
+				</li>
+				<li>
+					<a class="nav-item" href="/category/#Simulation">Simulation</a>
+				</li>
+
+<!--	    {% for category in site.categories %}-->
+<!--	    <li>-->
+<!--			<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">-->
+<!--				<span class="name">{{ category | first }}</span>-->
+<!--				<span class="badge">{{ category | last | size }}</span>-->
+<!--			</a>-->
+<!-- 		</li>-->
+<!--	    {% endfor %}-->
+
+
+	  </nav>
 	</ul>
 </div>
 
 <div class="sidebar-item sidebar-nav">
   	<ul class="nav">
-			<li class="nav-title">Categories</li>
-	    {% for category in site.categories %}
-	    <li>
-	    	<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
-				<span class="name">{{ category | first }}</span>
-				<span class="badge">{{ category | last | size }}</span>
-	    	</a>
- 		</li>
-	    {% endfor %}
+			<li class="nav-title">DATA ENGINEERING</li>
+				<li>
+					<a class="nav-item" href="/category/#MLOps">MLOps</a>
+				</li>
+				<li>
+					<a class="nav-item" href="/category/#Cloud">Cloud</a>
+				</li>
+				<li>
+					<a class="nav-item" href="/category/#Database">Database</a>
+				</li>
+				<li>
+					<a class="nav-item" href="/category/#Docker">Docker</a>
+				</li>
+				<li>
+					<a class="nav-item" href="/category/#Web">Web</a>
+				</li>
+				<li>
+					<a class="nav-item" href="/category/#Linux">Linux</a>
+				</li>
+
+<!--	    {% for category in site.categories %}-->
+<!--	    <li>-->
+<!--			<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">-->
+<!--				<span class="name">{{ category | first }}</span>-->
+<!--				<span class="badge">{{ category | last | size }}</span>-->
+<!--			</a>-->
+<!-- 		</li>-->
+<!--	    {% endfor %}-->
+
+
+	  </nav>
+	</ul>
+</div>
+
+
+<div class="sidebar-item sidebar-nav">
+  	<ul class="nav">
+			<li class="nav-title">STUDY</li>
+				<li>
+					<a class="nav-item" href="/category/#Lecture">Lecture</a>
+				</li>
+				<li>
+					<a class="nav-item" href="/category/#Paper">Paper</a>
+				</li>
+				<li>
+					<a class="nav-item" href="/category/#Certificate">Certificate</a>
+				</li>
+
+<!--	    {% for category in site.categories %}-->
+<!--	    <li>-->
+<!--			<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">-->
+<!--				<span class="name">{{ category | first }}</span>-->
+<!--				<span class="badge">{{ category | last | size }}</span>-->
+<!--			</a>-->
+<!-- 		</li>-->
+<!--	    {% endfor %}-->
+
+
+	  </nav>
+	</ul>
+</div>
+
+
+<div class="sidebar-item sidebar-nav">
+  	<ul class="nav">
+			<li class="nav-title">WORK</li>
+				<li>
+					<a class="nav-item" href="/category/#Project">Project</a>
+				</li>
+	  </nav>
+	</ul>
+</div>
+
+
+<div class="sidebar-item sidebar-nav">
+  	<ul class="nav">
+			<li class="nav-title">PLAY</li>
+				<li>
+					<a class="nav-item" href="/category/#Trip">Trip</a>
+				</li>
+				<li>
+					<a class="nav-item" href="/category/#Exercise">Exercise</a>
+				</li>
+				<li>
+					<a class="nav-item" href="/category/#Book">Book</a>
+				</li>
+
 	  </nav>
 	</ul>
 </div>
 
 <div class="sidebar-item sidebar-footer">
-	<p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a></p>
+	<p>© Shin-Nyum Park. 2022</p>
+<!--	<p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a></p>-->
 </div>

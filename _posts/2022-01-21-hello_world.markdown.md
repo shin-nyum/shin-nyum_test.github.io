@@ -2,7 +2,7 @@
 layout: post
 title: "Hello world !"
 date: 2022-01-21 17:35:00 +0900
-category: sample
+categories: Diary
 ---
 
 > "Hello world !"
